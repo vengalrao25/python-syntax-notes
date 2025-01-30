@@ -6,7 +6,28 @@
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
 
-- 
+-     from collections import deque
+-     dq = deque()
+
+-     # Pushing elements
+-     dq.append(1)       # [1]
+-     dq.append(2)       # [1, 2]
+-     dq.appendleft(0)   # [0, 1, 2]
+
+-     # Popping elements
+-     dq.pop()           # Removes 2 → [0, 1]
+-     dq.popleft()       # Removes 0 → [1]
+
+-     print(dq)  # Output: deque([1])
+
+
+
+
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / 
+
+
+
+
 -
 -
 -
