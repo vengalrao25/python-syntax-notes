@@ -2,7 +2,6 @@
 -     new_dict - n_dict.copy()
 
 
-
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
 
@@ -22,7 +21,6 @@
 
 
 
-
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
 
@@ -30,12 +28,19 @@ https://leetcode.com/problems/count-number-of-nice-subarrays/description/
 - hey this is like completely different question. you have to do minus.( HAHA - you have to remove something to get something )
 992. Subarrays with K Different Integers
 
-
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
 min_len = float("inf")   ( +ve infinity )
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
+
+from collections import defaultdict
+
+my_dict = defaultdict(int)
+
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
+
+
 -
 -
 -
