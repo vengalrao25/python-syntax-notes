@@ -1,3 +1,8 @@
+My Thought Process Hahaha my learnings. 
+
+
+
+
 -     n_dict = { 'a': 1 , 'b': 2 }
 -     new_dict - n_dict.copy()
 
@@ -40,6 +45,23 @@ my_dict = defaultdict(int)
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
+
+binary search - thoughts
+hey, you have been always thinking in Lower_bond and upperbond 
+
+just think normally
+
+if my mid is equal to NUM
+
+then if you want to go higher step then will do ( a[mid]<=num :   left = mid+1 )
+
+else if want to go leftmost lesser value then you will pick   a[mid]>=num :   right = mid
+
+don't think too much about this.
+just write a code in 1-2 min.
+
+
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
 -
 -
