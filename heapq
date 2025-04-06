@@ -1,0 +1,22 @@
+### smmales element comes to top
+
+import heapq
+t =[234,435,435,2,324,2,342,44,4,423,42,3]
+heapq.heapify(t)
+while t :
+    print(heapq.heappop(t))
+
+
+
+
+### Priority queue
+      
+import heapq
+t = []
+heapq.heappush( t , (1,1123) )
+heapq.heappush( t , (2,23) )
+
+heapq.heappush( t , (5,2) )
+
+while t :
+    print( heapq.heappop(t)  )
