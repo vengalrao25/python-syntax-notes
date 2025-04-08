@@ -1,0 +1,14 @@
+from collections import deque
+
+d = deque([])
+
+d.append(23)
+d.append(34)
+d.append(7623)
+d.append(223)
+
+ 
+
+print(d.popleft())
+print(d.popleft())
+print(d.popleft())
