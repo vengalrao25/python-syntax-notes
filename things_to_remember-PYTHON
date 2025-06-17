@@ -87,3 +87,22 @@ just write a code in 1-2 min.
 -
 -
 -
+
+
+t = set()
+
+t.add(133)
+t.add(133)
+t.add(33)
+t.add(33)
+t.add(353)
+
+print(t)
+
+
+
+
+
+
+
+
