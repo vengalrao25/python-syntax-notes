@@ -1,0 +1,16 @@
+All these are Recursive  -  bro
+
+
+return tree node
+
+return value
+
+remember this fuzzy logic man 
+See here how many nodes are there here ?
+            0          1nodes  2-power-0
+          1    1       2nodes  2-power-1
+        1  1  1  1     4nodes  2-power-2
+
+left node :-  2-power*(val) + 1
+right node :-  2-power*(val) + 2
+what ever it may be  - this logic is not permanent -( see the intention behind adding the +1 and +2 )
