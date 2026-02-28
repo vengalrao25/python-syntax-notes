@@ -12,3 +12,16 @@ d.append(223)
 print(d.popleft())
 print(d.popleft())
 print(d.popleft())
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+from collections import deque
+
+d = deque()
+
+d.append(10)        # push_back
+d.appendleft(5)     # push_front
+d.pop()             # pop_back
+d.popleft()         # pop_front
